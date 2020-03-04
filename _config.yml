@@ -1,8 +1,8 @@
 title: Thursday Church
-url: https://podcastthursdaychurchorg.netlify.com/
+url: http://podcasts.thursdaychurch.org
 
 ### download_url: is needed, if and only if audio files are hosted in a different location, it is the path of the directory where the audio files are stored
-download_url: "https://podcastthursdaychurchorg.netlify.com/episodes"
+download_url: "http://podcasts.thursdaychurch.org/episodes"
 subtitle: Thursday Church Sermon Podcasts
 description: 
 author: Thursday Church
@@ -15,7 +15,7 @@ keywords: [Thursday Church, Debbie Salters, Jason Walsh, Andrea Clegg, Dave Dunb
 itunes_categories: [Religion & Spirituality]
 episodes_per_feed_page: 100
 
-player_theme: republica # default | "default-dark" | legacy | minimal | republica
+player_theme: default # default | "default-dark" | legacy | minimal | republica
 
 ### Date can be localized via date_de.rb plugin, you don't need to change this
 date_format: ordinal
@@ -27,7 +27,7 @@ document_root: /path/to/your/htdocs/
 rsync_delete: true
 
 ### Twiter config, optional
-twitter_nick: thursdaychurch # Twitter will not be used unless this is set
+twitter_nick: my_twitter_handle # Twitter will not be used unless this is set
 
 language: en
 explicit: "no" # "yes" | "no" | clean
@@ -38,7 +38,7 @@ license_url: https://creativecommons.org/licenses/by/4.0/
 license_image_url: https://i.creativecommons.org/l/by/4.0/88x31.png
 
 ### Feed links, optional
-itunes_url: https://itunes.apple.com/at/podcast/thursdaychurchdev/id232323
+itunes_url: https://itunes.apple.com/at/podcast/myname/id232323
 # google_play_url: https://playmusic.app.goo.gl/...
 # bitlove_url: https://bitlove.org/myaccount
 # fyyd_url: https://fyyd.de/podcast/myaccount/myid
@@ -58,8 +58,8 @@ flattr_language: en_GB # available languages see https://api.flattr.com/rest/v2/
 flattr_category: audio # available categories see https://api.flattr.com/rest/v2/categories.txt
 
 ### Disqus comments
-disqus_shortname: thursdaychurchpodcasts # Disqus will not be used unless this is set
-disqus_developer: 1 # 1 | 0
+disqus_shortname: # Disqus will not be used unless this is set
+disqus_developer: 0 # 1 | 0
 
 ### Isso comments
 use_isso: "no" # "no" | "yes"
@@ -70,12 +70,12 @@ theme: jekyll-bootflat
 ### (but you will loose auto regeneration after code changes with a text editor then)
 plugins:
   - jekyll-octopod
-  - jekyll-admin
+#  - jekyll-admin
 
 ### Links to all domains, expect whitelisted will be rendered with rel="nofollow noopener noreferrer"
- kramdown:
-   input: 'NoopenerGFM'
-   same_tab_domains:
-     - localhost
-     - 127.0.0.1
-     - podcasts.thursdaychurch.org
+# kramdown:
+#   input: 'NoopenerGFM'
+#   same_tab_domains:
+#     - localhost
+#     - 127.0.0.1
+#     - podcast.your-domain.com
