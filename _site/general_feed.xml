@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>Thursday Church</title>
+  <link href="http://localhost:4000/general_feed.xml" rel="self"/>
+  <link href="http://localhost:4000"/>
+  <updated>2020-03-04T14:26:53-05:00</updated>
+  <id>http://localhost:4000/</id>
+  <author>
+    <name>Thursday Church</name>
+    <email>webmaster@thursdaychurch.org</email>
+  </author>
+
+  
+    <entry>
+      <title>Whats At The Core?</title>
+      <link href="http://localhost:4000/2016/03/22/episode0.html"/>
+      <updated>2016-03-22T00:00:00-04:00</updated>
+      <id>http://localhost:4000/2016/03/22/episode0</id>
+      <content type="html">&lt;script&gt;
+  window.playerConfiguration = {&quot;options&quot;:{&quot;theme&quot;:&quot;default&quot;,&quot;startPanel&quot;:&quot;ChapterMarks&quot;},&quot;extensions&quot;:{&quot;ChapterMarks&quot;:{},&quot;EpisodeInfo&quot;:{},&quot;Playlist&quot;:{}},&quot;title&quot;:null,&quot;episode&quot;:{&quot;media&quot;:{&quot;mp3&quot;:&quot;http://podcasts.thursdaychurch.org/episodes/Whats-at-the-core-Serve-God-and-others.mp3&quot;},&quot;coverUrl&quot;:&quot;http://localhost:4000/img/logo-360x360.png&quot;,&quot;title&quot;:&quot;Whats At The Core?&quot;,&quot;subtitle&quot;:&quot;Serve God and Others&quot;,&quot;url&quot;:&quot;http://localhost:4000/2016/03/22/episode0.html&quot;,&quot;description&quot;:null,&quot;chaptermarks&quot;:null}}
+&lt;/script&gt;
+
+&lt;script class=&quot;podigee-podcast-player&quot; data-configuration=&quot;playerConfiguration&quot; src=&quot;http://localhost:4000/podigee-player/javascripts/podigee-podcast-player.js&quot;&gt;
+&lt;/script&gt;
+
+&lt;h2 id=&quot;show-notes-and-links&quot;&gt;Show Notes and Links&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Well this is the place for the Show Notes.&lt;/li&gt;
+  &lt;li&gt;Send Feedback either in the &lt;a href=&quot;https://github.com/haslinger/jekyll-octopod&quot;&gt;Github Repo&lt;/a&gt; or at the Twitter account &lt;a href=&quot;http://twitter.com/@AuaUffCode&quot;&gt;@AuaUffCode&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+      
+        <link rel="enclosure" type="audio/mpeg" length="11064741" href="http://localhost:4000/episodes/Whats-at-the-core-Serve-God-and-others.mp3"/>
+      
+      
+    </entry>
+  
+</feed>
