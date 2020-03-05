@@ -1,7 +1,7 @@
 ---
-title: Healthy Heart
-subtitle: Willing Heart (To Bear the Burdens of Others)
-date: February 16, 2020
+title: Healthy Hear
+subtitle: Willing Heart
+datum: February 16th, 2020
 layout: default
 author: Debbie Salters
 explicit: 'no'
@@ -12,5 +12,5 @@ audio:
 
 {{ page | podigee_player:site }}
 
-## Sermon Notes 
+## Sermon Notes 02/16/2020
 

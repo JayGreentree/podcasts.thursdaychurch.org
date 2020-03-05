@@ -1,1 +1,0 @@
-podcasts.thursdaychurch.org
