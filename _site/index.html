@@ -11,11 +11,20 @@
 
   <link rel="alternate" type="application/atom+xml" href="/general_feed.xml" title="General Site Atom Feed (No Podcast Metadata!)" />
   <link rel="alternate" type="application/rss+xml" title="mp3 Episode RSS-Feed" href="http://localhost:4000/episodes.mp3.rss" />
-<link rel="alternate" type="application/rss+xml" title="m4a Episode RSS-Feed" href="http://localhost:4000/episodes.m4a.rss" />
-<link rel="alternate" type="application/rss+xml" title="ogg Episode RSS-Feed" href="http://localhost:4000/episodes.ogg.rss" />
 
-  <link href='/assets/css/ubuntu.css' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+  <!--link href='/assets/css/ubuntu.css' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="/assets/css/main.css" -->
+
+  <!-- Begin main site stylesheets -->
+    <link rel="stylesheet" href="/site/templates/css/bootstrap.css">
+    <link rel="stylesheet" href="/site/templates/css/magnific-popup.css">
+    <link rel="stylesheet" href="/site/templates/css/audioplayer.css">
+    <link rel="stylesheet" href="/site/templates/css/site-helpers.css">
+    <link rel="stylesheet" href="/site/templates/css/icon-font.css">
+    <link rel="stylesheet" href="/site/templates/css/events.css">
+    <link rel="stylesheet" href="/site/templates/css/site.css">
+    <link rel="stylesheet" href="/site/templates/css/font-awesome/css/font-awesome.css">
+  <!-- end main site stylesheets -->
 
   <script type='text/javascript' src="/assets/js/jquery.min.js"></script>
   <script type='text/javascript' src="/assets/js/bootstrap.min.js"></script>
@@ -29,54 +38,187 @@
 </head>
 
 <body>
-  <div class="container-fluid">
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="">Thursday Church</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a  class="active" href="http://localhost:4000/">Episodes</a></li>
-          </ul>
-          <form class="navbar-form navbar-right" action="https://google.com/search" method="get" role="search">
-            <div class="form-group">
-              <input type="text" name="q" class="form-control" placeholder="search item" value="">
-              <input type="hidden" name="q" value="site:localhost" />
-            </div>
-            <button type="submit" class="btn btn-default">Search</button>
-          </form>
-        </div><!--/.nav-collapse -->
+
+<div id='wrapper' class='page-id- template-'>
+
+<!-- begin Countdown -->
+   <div class="announcement-bar">
+    <div id="churchonline_counter">
+      <div class="live">Live Now</div>
+
+      <ul class="time">
+        <li><span>Next Service in:</span></li>
+        <li><span class="days btn-live"></span> <span class="label">days</span></li>
+        <li><span class="hours btn-live"></span> <span class="label">hrs</span></li>
+        <li><span class="minutes btn-live"></span> <span class="label">mins</span></li>
+        <li><span class="seconds btn-live"></span> <span class="label">secs</span></li>
+      </ul>
+    </div>
+  </div>
+<!-- End Countdown -->
+<div class='header' id='chapel-header-bar'>
+
+    <div id='search-area'>
+       <div class='container'>
+                <div class='row'>
+                    <div class='col-md-8 col-md-offset-2'>
+                          <div class="searchTop">
+                             <form id="search-form-top" class='clearfix' action='' method='get'>
+                             <input class="clear-click" id='search-site-input' placeholder='Search the site' type='text' name='q' value=''>
+                              <a id="search_query_btn" href="javascript:void(0);" class="icon-right-4"></a>
+                            </form>
+                        </div>
+                  </div>
+                </div>
+           </div>
+
+  </div>
+
+
+  <div id='floating-bar-nav'>
+
+       <div id='top-quick-menu' class=''>
+         <div class='container'>
+                <div class='row'>
+                    <div class='col-lg-12'>
+                          <div class="logo pull-left">
+                            <a href="/" class="crosspoint_logo" title='Thursday Church'>
+                             <img id="logo-mark"  src='/site/templates/css/img/logo-black.svg'>
+                            </a>
+                          </div>
+                          <div class="top-nav-right pull-right">
+                            <a id="menu-btn" href="javascript:void(0);" title="Menu"><span id="menu-btn-icon" class="icon-fw icon-menu-3"></span> Menu</a>
+                            <a id="events-btn" href="/events/" title="Events"><span class="icon-fw icon-calendar-1"></span><span class="hidden-xs"> Events</span></a>
+                             <a id="give-btn" class="hidden-xs" href="/give/" title="Giving"><span class="icon-fw icon-heart"></span> Giving</a>
+                             <a id="search-btn" href="javascript:void(0);" title="Search"><span id="menu-search-btn-icon" class="icon-fw icon-zoom-2"></span><span class="hidden-xs"> Search</span></a>
+
+
+                          </div>
+                    </div>
+               </div>
+         </div>
+
       </div>
-    </nav>
+
+
+        <div id='nav-main-menu' class='nav-content-holder' >
+          <div class='nav-top-border'></div>
+          <div class='container'>
+            <div class='row'>
+              <div class='col-md-12'>
+                <ul id="nav-pullout">
+                  <li id="nav_about" class='dropdown'><a href='#' id='about-nav' >Who We Are</a>
+                    <ul>
+                      <li><a href='/about/' style="color: white;">About Us </a></li>
+                      <li ><a href='/about/staff/' style="color: white;">Meet The Team  </a></li>
+                      <li ><a href='/about/beliefs/' style="color: white;">What We Believe </a></li>
+                      <li ><a href='/about/contact/' style="color: white;">Contact Us </a></li>
+                    </ul>
+                  </li>
+                  <li id="nav_locations" class='dropdown'><a href='#' id='locations-nav' >Locations</a>
+                    <ul>
+                      <li><a href='/locations/vincennes/' style="color: white;">Vincennes </a></li>
+                      <li><a href='/locations/bicknell/' style="color: white;">Bicknell  </a></li>
+                      <li><a href='/locations/french-creole/' style="color: white;">French (Creole) </a></li>
+                    </ul>
+                  </li>
+                  <li id="nav_connect" class='dropdown'><a href='#' >Ministries</a>
+                    <ul>
+                      <li ><a href='/ministries/kids/' style="color: white;">Kids </a></li>
+                      <li ><a href='/ministries/students/' style="color: white;">Students </a></li>
+                      <li ><a href='/ministries/life-groups/' style="color: white;">LIFE Groups </a></li>
+                      <li ><a href='/ministries/global-missions/' style="color: white;">Global Missions </a></li>
+                      <li ><a href='/ministries/celebrate-recovery/' style="color: white;">Celebrate Recovery </a></li>
+                      <li ><a href='/ministries/mobile-food-pantry/' style="color: white;">Mobile Food Pantry </a></li>
+                      <li ><a href='/ministries/3d-groups/' style="color: white;">3D Groups </a></li>
+                    </ul>
+                  </li>
+                     <li id="nav_connect" class='dropdown'><a href='#' >Events</a>
+                      <ul>
+                        <li ><a href='/events/' style="color: white;">Events </a></li>
+                        <li ><a href='/serve/' style="color: white;">Serve </a></li>
+                      </ul>
+                    </li>
+                    <li id="nav_outreach" class='dropdown'><a href='#' >Give</a>
+                    <ul>
+                      <!--li ><a href='/give/why-we-give/' style="color: white;">Why We Give </a></li-->
+                      <li ><a href='/give/' style="color: white;">Give Now </a></li>
+                                  </ul>
+                                </li>
+                                <li id="nav_resources" class='dropdown'><a href='#' >Watch</a>
+                                  <ul>
+                                    <li ><a href='/watch/' style="color: white;">Sermons </a></li>
+                                    <li ><a href='/live/' style="color: white;">Live </a></li>
+                                     <!--li ><a href='/stories/' >Stories </a></li-->
+                                  </ul>
+                                </li>
+
+
+                              </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+  </div>
+
+
+
+
+
+  <div id='top-area' class='top-home top-short-header'>
+
+    <div class='top-cover-gradient-fromtop gradient'></div>
+    <div class='top-cover-gradient-frombot gradient '></div>
+
+
+      <div class='container medium-header header-banner no-subtitle'>
+
+            <div class='row center-row'>
+                <div class='col-lg-12 center-col'>
+
+                      <h1>Episodes</h1>
+                       <div class='row'>
+                         <div class='col-lg-10 col-lg-offset-1'>
+                            <h2></h2>
+                            <!--h3>SERVICE TIMES</h3>
+                            <p class='campus-times'></p>
+                            <p class='campus-address'></p-->
+
+                         </div>
+                        </div>
+
+                </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div id='main' role='main'>
+
 
     <div class="container">
       <div class="row ">
         <div class="col-sm-8">
           <div class="content">
             
-<section id="6dc82a9e" class="active">
+<section id="eaf4cf81" class="active">
   <div class="page-header">
   <h1>
-    <a class="episode_title" href="http://localhost:4000/2016/03/22/episode0.html#6dc82a9e">Whats At The Core?</a>
+    <a class="episode_title" href="http://localhost:4000/2020/03/01/whats-at-the-core-serve-god-others.html#eaf4cf81">Whats At The Core?</a>
+<br />
+    <small>Serve God and Others</small><br />
     <small class="episode_date">
-      
-        22. März 2016
-      
-    </small> <br />
-    <small>Serve God and Others</small>
+          Mar 01, 20
+    </small> 
   </h1>
 </div>
 
 
   <script>
-  window.playerConfiguration = {"options":{"theme":"default","startPanel":"ChapterMarks"},"extensions":{"ChapterMarks":{},"EpisodeInfo":{},"Playlist":{}},"title":null,"episode":{"media":{"mp3":"http://podcasts.thursdaychurch.org/episodes/Whats-at-the-core-Serve-God-and-others.mp3"},"coverUrl":"http://localhost:4000/img/logo-360x360.png","title":"Whats At The Core?","subtitle":"Serve God and Others","url":"http://localhost:4000/2016/03/22/episode0.html","description":null,"chaptermarks":null}}
+  window.playerConfiguration = {"options":{"theme":"default","startPanel":"ChapterMarks"},"extensions":{"ChapterMarks":{},"EpisodeInfo":{},"Playlist":{}},"title":null,"episode":{"media":{"mp3":"http://podcasts.thursdaychurch.org/episodes/Whats-at-the-core-Serve-God-and-others.mp3"},"coverUrl":"http://localhost:4000/img/logo-360x360.png","title":"Whats At The Core?","subtitle":"Serve God and Others","url":"http://localhost:4000/2020/03/01/whats-at-the-core-serve-god-others.html","description":null,"chaptermarks":null}}
 </script>
 
 <script class="podigee-podcast-player" data-configuration="playerConfiguration" src="http://localhost:4000/podigee-player/javascripts/podigee-podcast-player.js">
@@ -96,7 +238,7 @@
     
   <hr />
   
-  <a href="https://twitter.com/share" class="button btn-primary btn-sm" data-url="http://localhost:4000/2016/03/22/episode0.html" data-text="Whats At The Core?">
+  <a href="https://twitter.com/share" class="button btn-primary btn-sm" data-url="http://localhost:4000/2020/03/01/whats-at-the-core-serve-god-others.html" data-text="Whats At The Core?">
     <i class="fab fa-twitter"></i> Tweet</a>
   
 
@@ -137,29 +279,13 @@
       "title": "Thursday Church",
       "subtitle": "Thursday Church Sermon Podcasts",
       "description": "",
-      "cover": "http://localhost:4000/img/logo-360x360.png",
+      "cover": "http://localhost:4000/img/podcast-logo.jpg",
       "feeds": [
       
         {
           "type": "audio",
           "format": "mp3",
           "url": "http://localhost:4000/episodes.mp3.rss",
-          "directory-url-itunes": "https://itunes.apple.com/at/podcast/myname/id232323",
-          "variant": "high"
-        },
-      
-        {
-          "type": "audio",
-          "format": "m4a",
-          "url": "http://localhost:4000/episodes.m4a.rss",
-          "directory-url-itunes": "https://itunes.apple.com/at/podcast/myname/id232323",
-          "variant": "high"
-        },
-      
-        {
-          "type": "audio",
-          "format": "ogg",
-          "url": "http://localhost:4000/episodes.ogg.rss",
           "directory-url-itunes": "https://itunes.apple.com/at/podcast/myname/id232323",
           "variant": "high"
         },
@@ -177,19 +303,11 @@
   
     <li><a href="http://localhost:4000/episodes.mp3.rss"><i class="fa fa-rss"></i> mp3-RSS-Feed</a></li>
   
-    <li><a href="http://localhost:4000/episodes.m4a.rss"><i class="fa fa-rss"></i> m4a-RSS-Feed</a></li>
-  
-    <li><a href="http://localhost:4000/episodes.ogg.rss"><i class="fa fa-rss"></i> ogg-RSS-Feed</a></li>
-  
 </ol>
 
 <h4>JSON-Feeds</h4>
 
 <ol type="i">
-  
-    <li><a href="http://localhost:4000/feed.m4a.json"><i class="fa fa-rss-square"></i> m4a-JSON-Feed</a></li>
-  
-    <li><a href="http://localhost:4000/feed.ogg.json"><i class="fa fa-rss-square"></i> ogg-JSON-Feed</a></li>
   
     <li><a href="http://localhost:4000/feed.mp3.json"><i class="fa fa-rss-square"></i> mp3-JSON-Feed</a></li>
   
@@ -241,12 +359,145 @@
           </div>
         </div>
       </div>
-      <div class="row" id="footer">
-        <small class="pull-right">
-          Powered by <a href="https://jekyll-octopod.github.io/">jekyll-octopod</a>
-          and <a href="http://jekyllrb.com/">Jekyll</a>.
-        </small>
-      </div>
-    </div><!-- /.container -->
-  </div><!-- /.container -->
+
+
+</div>   <!-- end Main -->
+
+<div id="footer-social-bar">
+       <div class="container">
+           <div class="row">
+             <div class="col-xs-12  col-sm-4 col-md-4 ">
+
+                         <div id="footer-address">
+                          <h4>Mailing Address</h4>
+                          <p>218 Main St.,<span class="hidden-sm hidden-md hidden-lg"><br></span> Vincennes, IN 47591<br>
+                          Phone: 812.‍882.2737 <!--&nbsp;|&nbsp; Fax: 716.‍634.4184--></p>
+                        </div>
+             </div>
+             <div class="col-xs-12  col-sm-4 col-md-4  " id="footer-contact">
+                <a href="#contact-form" class="btn btn-default btn-clear btn-left mg-t-sm" data-toggle="modal" data-target=""><i class="icon-right-4 icon-fw"></i> Contact Us</a>
+             </div>
+             <div class="col-xs-12  col-sm-4 col-md-4 " style="text-align:center;">
+                   <div id="social-icons">
+                      <a target="_blank" href="http://t.co/1PfouMf" title="Facebook" class="social-fb"><i class="icon-facebook-square  "></i></a>
+                      <a target="_blank" href="http://t.co/2d2vCF4" title="Twitter" class="social-tw"><i class="icon-twitter"></i></a>
+                      <a target="_blank" href="http://t.co/2dhdG8K" title="Instagram" class="social-in"><i class="icon-instagram "></i></a>
+                      <a target="_blank" href='http://t.co/1PKODFi' title="Youtube" class='social-yt'><i class="icon-youtube"></i></a>
+                   </div>
+             </div>
+         </div>
+     </div>
+</div>
+
+
+<!-- FOOTER -->
+<div id="footer">
+  <div class="container ">
+           <div class="row mg-t-md mg-b-md">
+             <div class="col-sm-3 col-md-3  ">
+
+                 <h4>LOCATIONS</h4>
+                 <ul>
+
+                   <li><a href="/vincennes" style="color: white;">Vincennes</a></li>
+                   <li><a href="/bicknell" style="color: white;">Bicknell</a></li>
+                   <li><a href="/french-creole" style="color: white;">French (Creole)</a></li>
+
+                 </ul>
+                  <hr class="thin-hr visible-xs">
+              </div>
+
+              <div class="col-sm-3 col-md-3 ">
+
+
+                 <h4>GIVE</h4>
+                  <ul>
+                     <!--li><a href="/connect/giving/" style="color: white;">Why We Give</a></li-->
+                     <li><a href="/giving/" style="color: white;">Give Now</a></li>
+                     <!--li><a href="/connect/giving/#mobile" style="color: white;">Mobile Giving</a></li>
+                     <li><a href="/media/videos/annual-family-update-2017/" style="color: white;">Annual Report</a></li -->
+                 </ul>
+                 <hr class="thin-hr visible-xs">
+              </div>
+
+               <div class="col-sm-3 col-md-3 ">
+                 <h4>WATCH</h4>
+                 <ul>
+
+                     <li><a href="/live" style="color: white;">Watch Live</a></li>
+                     <!-- li><a href="/recent/">Recent Message</a></li -->
+                     <li><a href="/sermons/" style="color: white;">Sermon Archive</a></li>
+                     <!--li><a href="/stories/">Stories</a></li>
+                     <li><a href='/media/music'>Music</a></li>-->
+
+                 </ul>
+                  <hr class="thin-hr visible-xs">
+              </div>
+
+              <div class=" col-sm-3 col-md-3 ">
+                 <h4>RESOURCES</h4>
+                 <ul>
+                   <li><a href="" style="color: white;">Discipleship</a></li>
+                   <li><a href="" style="color: white;" target="_blank">Spiritual Gift Test</a></li>
+                   <li><a href="" style="color: white;">Mobile Apps and TV</a></li>
+                   <li><a href="" style="color: white;" target="_blank">Bible Reading Plan</a></li>
+
+                 </ul>
+              </div>
+         </div>
+
+         <div class="row mg-t-md mg-b-md">
+             <div class="col-md-12">
+               <hr>
+               <p>Copyright &copy; <?php echo date("Y");?> Thursday Church <!--span class="middot">·</span> <a href="/privacy-policy/" style="color: white;">Privacy Policy</a>
+                 <span class="middot">·</span> <a href="/credits/" style="color: white;">Credits</a>
+                 <span class="middot">·</span> <a href="/tags/" style="color: white;">Tags</a-->
+
+                 </p>
+             </div>
+         </div>
+     </div>
+</div>
+
+
+<!-- window resize helper -->
+<span id="mq-detector">
+   <span class="visible-xs"></span>
+   <span class="visible-sm"></span>
+   <span class="visible-md"></span>
+   <span class="visible-lg"></span>
+</span>
+
+
+
+</div> <!-- / wrapper -->
+
+        <script src="/site/templates/js/chop.js"></script>
+    <!-- start the countdown when the page loads -->
+    <!--script type="text/javascript">
+      $(function () {
+        var holiday = new Date();
+        holiday = new Date("2020-02-20 18:40:00 -0500");
+        $('.defaultCountdown').countdown({until: holiday});
+        $('#year').text(holiday.getFullYear());
+      });
+    </script-->
+    <!-- end of javascript includes  -->
+    <script src='/site/templates/js/plugins/fastbutton/google.fastbutton.js'></script>
+    <script src='/site/templates/js/plugins/fastbutton/jquery.google.fastbutton.js'></script>
+    <script src='/site/templates/js/bootstrap.min.js'></script>
+    <script src='/site/templates/js/plugins/emailObfuscation/emo.min.js'></script>
+    <script src='/site/templates/js/plugins/fitvids/jquery.fitvids.min.js'></script>
+    <script src='/site/templates/js/plugins/validate/jquery.validate.js'></script>
+    <script src='/site/templates/js/main.js'></script>
+    <script src='/site/templates/js/popup.js'></script>
+    <script src='/site/templates/js/share.js'></script>
+    <script>
+      
+    </script>
+    <script src='/site/templates/css/ckeditor/ckeditor.js'></script>
+    <script src='/site/templates/css/ckeditor/samples/js/sample.js'></script>
+    
+
+</body>
 </html>
