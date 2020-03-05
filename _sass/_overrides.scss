@@ -14,10 +14,10 @@ btn small, .btn small {
 
 // Theme for the Swiss-Sided Dice podcast, red and white based on the Swiss flag - commented out for now, until a better solution can be found
 
-
+/*
 // Main navbar background
 .navbar-default {
-  background-color: #490b4d;
+  background-color: #E11A27;
 }
 
 // Hovering over navbar links, keep the text white, but add darker background
@@ -25,50 +25,44 @@ btn small, .btn small {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > li > a {
-  color: #ffffff;
-  background-color: #490b4d;
+  color: #FFF;
+  background-color: #E11A27;
 }
 
 // The "brand" / podcast title doesn't change on hover, but does keep the text white
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
-  color: #ffffff;
+  color: #FFF;
 }
 
 // This is for the menu button on narrow screens
 .navbar-default .navbar-toggle {
-  background-color: #490b4d;
-  border-color: #000000;
+  background-color: #E11A27;
+  border-color: #FFF;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #000000;
+  background-color: #FFF;
 }
 
 // Darker background, keep rest white
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-nav > li > a:hover {
   background-color: #A5131D;
-  border-color: #000000;
-  color: #000000;
+  border-color: #FFF;
+  color: #FFF;
 }
 
 // Links and buttons in the website are a dark red for best contrast, but get lightened on hover for feedback
 a {
-  color: #490b4d;
+  color: #CF000F;
 }
 a:hover {
-  color: #490b4d;
+  color: #EF3743;
 }
 .btn-primary {
-  background-color: #490b4d;
+  background-color: #CF000F;
 }
 .btn-primary:hover, .btn-primary:focus {
-  background-color: #490b4d;
+  background-color: #EF3743;
 }
-
-.btn-info {
-  background-color: #490b4d;
-}
-.btn-info:hover, .btn-info:focus {
-  background-color: #490b4d;
-}
+*/

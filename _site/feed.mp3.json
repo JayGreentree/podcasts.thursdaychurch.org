@@ -1,0 +1,123 @@
+{"version": "https://jsonfeed.org/version/1",
+ "title": "Thursday Church Podcast",
+ "home_page_url": "http://localhost:4000/",
+ "feed_url": "http://localhost:4000/feed.json",
+ "description": null,
+ "user_comment": null,
+ "icon": "http://localhost:4000/apple-touch-icon-precomposed.png",
+ "favicon": "http://localhost:4000/favicon.ico",
+ "expired": false,
+ "author": {
+   "name": null,
+   "url": "http://thursdaychurch.org/"
+ },
+ "items": [
+   {"id": "7642f053",
+    "title": "What's at The Core?",
+    "summary": "",
+    "content_text": "Show Notes and Links  Well this is the place for the Show Notes.  Send Feedback either in the Github Repo or at the Twitter account @AuaUffCode.",
+    "content_html": "<script>  window.playerConfiguration = {\"options\":{\"theme\":\"default\",\"startPanel\":\"ChapterMarks\"},\"extensions\":{\"ChapterMarks\":{},\"EpisodeInfo\":{},\"Playlist\":{}},\"title\":null,\"episode\":{\"media\":{\"mp3\":\"http://podcasts.thursdaychurch.org/episodes/whats-at-the-core-serve-god-and-others.mp3\"},\"coverUrl\":\"http://localhost:4000/img/logo-360x360.png\",\"title\":\"What's at The Core?\",\"subtitle\":\"Serve God and Others\",\"url\":\"http://localhost:4000/2020/03/01/whats-at-the-core-serve-god-and-others.html\",\"description\":null,\"chaptermarks\":[{\"start\":\"00:00:00.000 \",\"title\":\"Intro.\"},{\"start\":\"00:00:01.000 \",\"title\":\"... Shoubidoubidoo ...\"},{\"start\":\"00:00:02.000 \",\"title\":\"Outro.\"}]}}</script><script class=\"podigee-podcast-player\" data-configuration=\"playerConfiguration\" src=\"http://localhost:4000/podigee-player/javascripts/podigee-podcast-player.js\"></script><h2 id=\"show-notes-and-links\">Show Notes and Links</h2><ul>  <li>Well this is the place for the Show Notes.</li>  <li>Send Feedback either in the <a href=\"https://github.com/haslinger/jekyll-octopod\">Github Repo</a> or at the Twitter account <a href=\"http://twitter.com/@AuaUffCode\">@AuaUffCode</a>.</li></ul>",
+    "url": "http://localhost:4000/2020/03/01/whats-at-the-core-serve-god-and-others.html",
+    "date_published": "2020-03-01T00:00:00-05:00",
+    "date_modified": "2020-03-01T00:00:00-05:00",
+    "author": {
+      "name": "Debbie Salters"
+    }
+  },
+   {"id": "a6a39971",
+    "title": "Healthy Heart",
+    "summary": "",
+    "content_text": "Show Notes and Links  Well this is the place for the Show Notes.  Send Feedback either in the Github Repo or at the Twitter account @AuaUffCode.",
+    "content_html": "<script>  window.playerConfiguration = {\"options\":{\"theme\":\"default\",\"startPanel\":\"ChapterMarks\"},\"extensions\":{\"ChapterMarks\":{},\"EpisodeInfo\":{},\"Playlist\":{}},\"title\":null,\"episode\":{\"media\":{\"mp3\":\"http://podcasts.thursdaychurch.org/episodes/healthy-heart-believing-heart.mp3\"},\"coverUrl\":\"http://localhost:4000/img/logo-360x360.png\",\"title\":\"Healthy Heart\",\"subtitle\":\"Believing Heart\",\"url\":\"http://localhost:4000/2020/02/23/healthy-heart-believing-heart.html\",\"description\":null,\"chaptermarks\":[{\"start\":\"00:00:00.000 \",\"title\":\"Intro.\"},{\"start\":\"00:00:01.000 \",\"title\":\"... Shoubidoubidoo ...\"},{\"start\":\"00:00:02.000 \",\"title\":\"Outro.\"}]}}</script><script class=\"podigee-podcast-player\" data-configuration=\"playerConfiguration\" src=\"http://localhost:4000/podigee-player/javascripts/podigee-podcast-player.js\"></script><h2 id=\"show-notes-and-links\">Show Notes and Links</h2><ul>  <li>Well this is the place for the Show Notes.</li>  <li>Send Feedback either in the <a href=\"https://github.com/haslinger/jekyll-octopod\">Github Repo</a> or at the Twitter account <a href=\"http://twitter.com/@AuaUffCode\">@AuaUffCode</a>.</li></ul>",
+    "url": "http://localhost:4000/2020/02/23/healthy-heart-believing-heart.html",
+    "date_published": "2020-02-23T00:00:00-05:00",
+    "date_modified": "2020-02-23T00:00:00-05:00",
+    "author": {
+      "name": "Debbie Salters"
+    }
+  },
+   {"id": "2cdefe07",
+    "title": "Healthy Heart",
+    "summary": "",
+    "content_text": "Show Notes and Links  Well this is the place for the Show Notes.  Send Feedback either in the Github Repo or at the Twitter account @AuaUffCode.",
+    "content_html": "<script>  window.playerConfiguration = {\"options\":{\"theme\":\"default\",\"startPanel\":\"ChapterMarks\"},\"extensions\":{\"ChapterMarks\":{},\"EpisodeInfo\":{},\"Playlist\":{}},\"title\":null,\"episode\":{\"media\":{\"mp3\":\"http://podcasts.thursdaychurch.org/episodes/healthy-heart-willing-heart.mp3\"},\"coverUrl\":\"http://localhost:4000/img/logo-360x360.png\",\"title\":\"Healthy Heart\",\"subtitle\":\"Willing Heart\",\"url\":\"http://localhost:4000/2020/02/16/healthy-heart-willing-heart.html\",\"description\":null,\"chaptermarks\":[{\"start\":\"00:00:00.000 \",\"title\":\"Intro.\"},{\"start\":\"00:00:01.000 \",\"title\":\"... Shoubidoubidoo ...\"},{\"start\":\"00:00:02.000 \",\"title\":\"Outro.\"}]}}</script><script class=\"podigee-podcast-player\" data-configuration=\"playerConfiguration\" src=\"http://localhost:4000/podigee-player/javascripts/podigee-podcast-player.js\"></script><h2 id=\"show-notes-and-links\">Show Notes and Links</h2><ul>  <li>Well this is the place for the Show Notes.</li>  <li>Send Feedback either in the <a href=\"https://github.com/haslinger/jekyll-octopod\">Github Repo</a> or at the Twitter account <a href=\"http://twitter.com/@AuaUffCode\">@AuaUffCode</a>.</li></ul>",
+    "url": "http://localhost:4000/2020/02/16/healthy-heart-willing-heart.html",
+    "date_published": "2020-02-16T00:00:00-05:00",
+    "date_modified": "2020-02-16T00:00:00-05:00",
+    "author": {
+      "name": "Debbie Salters"
+    }
+  },
+   {"id": "0904e750",
+    "title": "Healthy Heart",
+    "summary": "",
+    "content_text": "Show Notes and Links  Well this is the place for the Show Notes.  Send Feedback either in the Github Repo or at the Twitter account @AuaUffCode.",
+    "content_html": "<script>  window.playerConfiguration = {\"options\":{\"theme\":\"default\",\"startPanel\":\"ChapterMarks\"},\"extensions\":{\"ChapterMarks\":{},\"EpisodeInfo\":{},\"Playlist\":{}},\"title\":null,\"episode\":{\"media\":{\"mp3\":\"http://podcasts.thursdaychurch.org/episodes/healthy-heart-stout-heart.mp3\"},\"coverUrl\":\"http://localhost:4000/img/logo-360x360.png\",\"title\":\"Healthy Heart\",\"subtitle\":\"Stout Heart (My own Burdens)\",\"url\":\"http://localhost:4000/2020/02/09/healthy-heart-stout-heart.html\",\"description\":null,\"chaptermarks\":[{\"start\":\"00:00:00.000 \",\"title\":\"Intro.\"},{\"start\":\"00:00:01.000 \",\"title\":\"... Shoubidoubidoo ...\"},{\"start\":\"00:00:02.000 \",\"title\":\"Outro.\"}]}}</script><script class=\"podigee-podcast-player\" data-configuration=\"playerConfiguration\" src=\"http://localhost:4000/podigee-player/javascripts/podigee-podcast-player.js\"></script><h2 id=\"show-notes-and-links\">Show Notes and Links</h2><ul>  <li>Well this is the place for the Show Notes.</li>  <li>Send Feedback either in the <a href=\"https://github.com/haslinger/jekyll-octopod\">Github Repo</a> or at the Twitter account <a href=\"http://twitter.com/@AuaUffCode\">@AuaUffCode</a>.</li></ul>",
+    "url": "http://localhost:4000/2020/02/09/healthy-heart-stout-heart.html",
+    "date_published": "2020-02-09T00:00:00-05:00",
+    "date_modified": "2020-02-09T00:00:00-05:00",
+    "author": {
+      "name": "Debbie Salters"
+    }
+  },
+   {"id": "413ab104",
+    "title": "Healthy Heart",
+    "summary": "",
+    "content_text": "Show Notes and Links  Well this is the place for the Show Notes.  Send Feedback either in the Github Repo or at the Twitter account @AuaUffCode.",
+    "content_html": "<script>  window.playerConfiguration = {\"options\":{\"theme\":\"default\",\"startPanel\":\"ChapterMarks\"},\"extensions\":{\"ChapterMarks\":{},\"EpisodeInfo\":{},\"Playlist\":{}},\"title\":null,\"episode\":{\"media\":{\"mp3\":\"http://podcasts.thursdaychurch.org/episodes/healthy-heart-physical-health.mp3\"},\"coverUrl\":\"http://localhost:4000/img/logo-360x360.png\",\"title\":\"Healthy Heart\",\"subtitle\":\"Physical Health\",\"url\":\"http://localhost:4000/2020/02/02/healthy-heart-physical-health.html\",\"description\":null,\"chaptermarks\":[{\"start\":\"00:00:00.000 \",\"title\":\"Intro.\"},{\"start\":\"00:00:01.000 \",\"title\":\"... Shoubidoubidoo ...\"},{\"start\":\"00:00:02.000 \",\"title\":\"Outro.\"}]}}</script><script class=\"podigee-podcast-player\" data-configuration=\"playerConfiguration\" src=\"http://localhost:4000/podigee-player/javascripts/podigee-podcast-player.js\"></script><h2 id=\"show-notes-and-links\">Show Notes and Links</h2><ul>  <li>Well this is the place for the Show Notes.</li>  <li>Send Feedback either in the <a href=\"https://github.com/haslinger/jekyll-octopod\">Github Repo</a> or at the Twitter account <a href=\"http://twitter.com/@AuaUffCode\">@AuaUffCode</a>.</li></ul>",
+    "url": "http://localhost:4000/2020/02/02/healthy-heart-physical-health.html",
+    "date_published": "2020-02-02T00:00:00-05:00",
+    "date_modified": "2020-02-02T00:00:00-05:00",
+    "author": {
+      "name": "Debbie Salters"
+    }
+  },
+   {"id": "d354219b",
+    "title": "Vision 20/20",
+    "summary": "",
+    "content_text": "Show Notes and Links  Well this is the place for the Show Notes.  Send Feedback either in the Github Repo or at the Twitter account @AuaUffCode.",
+    "content_html": "<script>  window.playerConfiguration = {\"options\":{\"theme\":\"default\",\"startPanel\":\"ChapterMarks\"},\"extensions\":{\"ChapterMarks\":{},\"EpisodeInfo\":{},\"Playlist\":{}},\"title\":null,\"episode\":{\"media\":{\"mp3\":\"http://podcasts.thursdaychurch.org/episodes/vision-2020-live.mp3\"},\"coverUrl\":\"http://localhost:4000/img/logo-360x360.png\",\"title\":\"Vision 20/20\",\"subtitle\":\"Live\",\"url\":\"http://localhost:4000/2020/01/26/vision-2020-live.html\",\"description\":null,\"chaptermarks\":[{\"start\":\"00:00:00.000 \",\"title\":\"Intro.\"},{\"start\":\"00:00:01.000 \",\"title\":\"... Shoubidoubidoo ...\"},{\"start\":\"00:00:02.000 \",\"title\":\"Outro.\"}]}}</script><script class=\"podigee-podcast-player\" data-configuration=\"playerConfiguration\" src=\"http://localhost:4000/podigee-player/javascripts/podigee-podcast-player.js\"></script><h2 id=\"show-notes-and-links\">Show Notes and Links</h2><ul>  <li>Well this is the place for the Show Notes.</li>  <li>Send Feedback either in the <a href=\"https://github.com/haslinger/jekyll-octopod\">Github Repo</a> or at the Twitter account <a href=\"http://twitter.com/@AuaUffCode\">@AuaUffCode</a>.</li></ul>",
+    "url": "http://localhost:4000/2020/01/26/vision-2020-live.html",
+    "date_published": "2020-01-26T00:00:00-05:00",
+    "date_modified": "2020-01-26T00:00:00-05:00",
+    "author": {
+      "name": "Debbie Salters"
+    }
+  },
+   {"id": "f01ef42a",
+    "title": "Vision 20/20",
+    "summary": "",
+    "content_text": "Show Notes and Links  Well this is the place for the Show Notes.  Send Feedback either in the Github Repo or at the Twitter account @AuaUffCode.",
+    "content_html": "<script>  window.playerConfiguration = {\"options\":{\"theme\":\"default\",\"startPanel\":\"ChapterMarks\"},\"extensions\":{\"ChapterMarks\":{},\"EpisodeInfo\":{},\"Playlist\":{}},\"title\":null,\"episode\":{\"media\":{\"mp3\":\"http://podcasts.thursdaychurch.org/episodes/vision-2020-love.mp3\"},\"coverUrl\":\"http://localhost:4000/img/logo-360x360.png\",\"title\":\"Vision 20/20\",\"subtitle\":\"Love\",\"url\":\"http://localhost:4000/2020/01/19/vision-2020-love.html\",\"description\":null,\"chaptermarks\":[{\"start\":\"00:00:00.000 \",\"title\":\"Intro.\"},{\"start\":\"00:00:01.000 \",\"title\":\"... Shoubidoubidoo ...\"},{\"start\":\"00:00:02.000 \",\"title\":\"Outro.\"}]}}</script><script class=\"podigee-podcast-player\" data-configuration=\"playerConfiguration\" src=\"http://localhost:4000/podigee-player/javascripts/podigee-podcast-player.js\"></script><h2 id=\"show-notes-and-links\">Show Notes and Links</h2><ul>  <li>Well this is the place for the Show Notes.</li>  <li>Send Feedback either in the <a href=\"https://github.com/haslinger/jekyll-octopod\">Github Repo</a> or at the Twitter account <a href=\"http://twitter.com/@AuaUffCode\">@AuaUffCode</a>.</li></ul>",
+    "url": "http://localhost:4000/2020/01/19/vision-2020-love.html",
+    "date_published": "2020-01-19T00:00:00-05:00",
+    "date_modified": "2020-01-19T00:00:00-05:00",
+    "author": {
+      "name": "Debbie Salters"
+    }
+  },
+   {"id": "ed891d59",
+    "title": "Vision 20/20",
+    "summary": "",
+    "content_text": "Show Notes and Links  Well this is the place for the Show Notes.  Send Feedback either in the Github Repo or at the Twitter account @AuaUffCode.",
+    "content_html": "<script>  window.playerConfiguration = {\"options\":{\"theme\":\"default\",\"startPanel\":\"ChapterMarks\"},\"extensions\":{\"ChapterMarks\":{},\"EpisodeInfo\":{},\"Playlist\":{}},\"title\":null,\"episode\":{\"media\":{\"mp3\":\"http://podcasts.thursdaychurch.org/episodes/vision-2020-pray.mp3\"},\"coverUrl\":\"http://localhost:4000/img/logo-360x360.png\",\"title\":\"Vision 20/20\",\"subtitle\":\"Pray\",\"url\":\"http://localhost:4000/2020/01/12/vision-2020-pray.html\",\"description\":null,\"chaptermarks\":[{\"start\":\"00:00:00.000 \",\"title\":\"Intro.\"},{\"start\":\"00:00:01.000 \",\"title\":\"... Shoubidoubidoo ...\"},{\"start\":\"00:00:02.000 \",\"title\":\"Outro.\"}]}}</script><script class=\"podigee-podcast-player\" data-configuration=\"playerConfiguration\" src=\"http://localhost:4000/podigee-player/javascripts/podigee-podcast-player.js\"></script><h2 id=\"show-notes-and-links\">Show Notes and Links</h2><ul>  <li>Well this is the place for the Show Notes.</li>  <li>Send Feedback either in the <a href=\"https://github.com/haslinger/jekyll-octopod\">Github Repo</a> or at the Twitter account <a href=\"http://twitter.com/@AuaUffCode\">@AuaUffCode</a>.</li></ul>",
+    "url": "http://localhost:4000/2020/01/12/vision-2020-pray.html",
+    "date_published": "2020-01-12T00:00:00-05:00",
+    "date_modified": "2020-01-12T00:00:00-05:00",
+    "author": {
+      "name": "Debbie Salters"
+    }
+  },
+   {"id": "8fcb3902",
+    "title": "Vision 20/20",
+    "summary": "",
+    "content_text": "Show Notes and Links  Well this is the place for the Show Notes.  Send Feedback either in the Github Repo or at the Twitter account @AuaUffCode.",
+    "content_html": "<script>  window.playerConfiguration = {\"options\":{\"theme\":\"default\",\"startPanel\":\"ChapterMarks\"},\"extensions\":{\"ChapterMarks\":{},\"EpisodeInfo\":{},\"Playlist\":{}},\"title\":null,\"episode\":{\"media\":{\"mp3\":\"http://podcasts.thursdaychurch.org/episodes/vision-2020-seek.mp3\"},\"coverUrl\":\"http://localhost:4000/img/logo-360x360.png\",\"title\":\"Vision 20/20\",\"subtitle\":\"Seek\",\"url\":\"http://localhost:4000/2020/01/05/vision-2020-seek.html\",\"description\":null,\"chaptermarks\":[{\"start\":\"00:00:00.000 \",\"title\":\"Intro.\"},{\"start\":\"00:00:01.000 \",\"title\":\"... Shoubidoubidoo ...\"},{\"start\":\"00:00:02.000 \",\"title\":\"Outro.\"}]}}</script><script class=\"podigee-podcast-player\" data-configuration=\"playerConfiguration\" src=\"http://localhost:4000/podigee-player/javascripts/podigee-podcast-player.js\"></script><h2 id=\"show-notes-and-links\">Show Notes and Links</h2><ul>  <li>Well this is the place for the Show Notes.</li>  <li>Send Feedback either in the <a href=\"https://github.com/haslinger/jekyll-octopod\">Github Repo</a> or at the Twitter account <a href=\"http://twitter.com/@AuaUffCode\">@AuaUffCode</a>.</li></ul>",
+    "url": "http://localhost:4000/2020/01/05/vision-2020-seek.html",
+    "date_published": "2020-01-05T00:00:00-05:00",
+    "date_modified": "2020-01-05T00:00:00-05:00",
+    "author": {
+      "name": "Debbie Salters"
+    }
+  }]
+}

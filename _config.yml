@@ -1,18 +1,18 @@
-title: Thursday Church
-url: http://podcasts.thursdaychurch.org
+title: Thursday Church Podcast
+url: http://localhost:4000
 
 ### download_url: is needed, if and only if audio files are hosted in a different location, it is the path of the directory where the audio files are stored
 download_url: "http://podcasts.thursdaychurch.org/episodes"
-subtitle: Thursday Church Sermon Podcasts
+subtitle: 
 description: 
-author: Thursday Church
+author: 
 
 ### author_url: This is the URL of a site owned by the author (see https://jsonfeed.org/version/1)
 author_url: "http://thursdaychurch.org/"
 
-email: webmaster@thursdaychurch.org
-keywords: [Thursday Church, Debbie Salters, Jason Walsh, Andrea Clegg, Dave Dunbar]
-itunes_categories: [Religion & Spirituality]
+email: octopod@example.com
+keywords: [octopod, podcast, magic]
+itunes_categories: [Technology]
 episodes_per_feed_page: 100
 
 player_theme: default # default | "default-dark" | legacy | minimal | republica

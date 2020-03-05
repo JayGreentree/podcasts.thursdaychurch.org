@@ -1,16 +1,24 @@
 ---
-title: Healthy Hear
+title: Healthy Heart
 subtitle: Willing Heart
-datum: February 16th, 2020
-layout: default
+date: February 16th 2020
+layout: post
 author: Debbie Salters
 explicit: 'no'
-duration: "0:38:52"
+duration: "0:03:13"
 audio:
-  mp3: Healthy-Heart-Willing-Heart.mp3
+  mp3: healthy-heart-willing-heart.mp3
+#  ogg: healthy-heart-willing-heart.ogg
+#  m4a: healthy-heart-willing-heart.m4a
+chapters:
+  - '00:00:00.000 Intro.'
+  - '00:00:01.000 ... Shoubidoubidoo ...'
+  - '00:00:02.000 Outro.'
 ---
 
-{{ page | podigee_player:site }}
+{% podigee_player page %}
 
-## Sermon Notes 02/16/2020
+## Show Notes and Links
 
+  * Well this is the place for the Show Notes.
+  * Send Feedback either in the [Github Repo](https://github.com/haslinger/jekyll-octopod) or at the Twitter account [@AuaUffCode](http://twitter.com/@AuaUffCode).
