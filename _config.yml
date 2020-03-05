@@ -1,5 +1,5 @@
 title: Thursday Church
-url: https://podcasts.thursdaychurch.org
+url: http://podcasts.thursdaychurch.org
 
 ### download_url: is needed, if and only if audio files are hosted in a different location, it is the path of the directory where the audio files are stored
 download_url: "http://podcasts.thursdaychurch.org/episodes"
@@ -23,11 +23,11 @@ date_format: ordinal
 ### Rsync Deploy config: Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
 ssh_host: user@host.org
 ssh_port: 22
-document_root: /path/to/your/htdocs/
+document_root: /home/jaygreentree/Github/podcasts.thursdaychurch.org
 rsync_delete: true
 
 ### Twiter config, optional
-twitter_nick: my_twitter_handle # Twitter will not be used unless this is set
+twitter_nick: thursdaychurch # Twitter will not be used unless this is set
 
 language: en
 explicit: "no" # "yes" | "no" | clean
