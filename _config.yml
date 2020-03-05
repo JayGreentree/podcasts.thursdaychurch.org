@@ -1,16 +1,16 @@
-title: Thursday Church Podcast
-url: http://localhost:4000
+title: Thursday Church
+url: https://podcasts.thursdaychurch.org
 
 ### download_url: is needed, if and only if audio files are hosted in a different location, it is the path of the directory where the audio files are stored
 download_url: "http://podcasts.thursdaychurch.org/episodes"
 subtitle: 
-description: 
+description: Doing Church Differnetly While Staying True to the Message of Jesus Christ
 author: 
 
 ### author_url: This is the URL of a site owned by the author (see https://jsonfeed.org/version/1)
 author_url: "http://thursdaychurch.org/"
 
-email: octopod@example.com
+email: webmaster@thursdaychurch.org
 keywords: [octopod, podcast, magic]
 itunes_categories: [Technology]
 episodes_per_feed_page: 100
