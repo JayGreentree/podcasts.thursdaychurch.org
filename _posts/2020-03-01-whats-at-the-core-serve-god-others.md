@@ -1,7 +1,7 @@
 ---
 title: Whats At The Core?
 subtitle: Serve God and Others
-datum: 03/01/2020
+datum: March 1, 2020
 layout: default
 author: Debbie Salters
 explicit: 'no'
@@ -10,7 +10,7 @@ audio:
   mp3: Whats-at-the-core-Serve-God-and-others.mp3
 ---
 
-{% podigee_player page %}
+{{ page | podigee_player:site }}
 
 ## Sermon Notes 03/01/2020
 
