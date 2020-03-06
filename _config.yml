@@ -1,8 +1,8 @@
 title: Thursday Church
-url: http://podcasts.thursdaychurch.org
+url: http://podcast.thursdaychurch.org
 
 ### download_url: is needed, if and only if audio files are hosted in a different location, it is the path of the directory where the audio files are stored
-download_url: "http://podcasts.thursdaychurch.org/episodes"
+download_url: "http://podcast.thursdaychurch.org/episodes"
 subtitle: 
 description: Doing Church Differnetly While Staying True to the Message of Jesus Christ
 author: 
@@ -11,20 +11,20 @@ author:
 author_url: "http://thursdaychurch.org/"
 
 email: webmaster@thursdaychurch.org
-keywords: [octopod, podcast, magic]
-itunes_categories: [Technology]
+keywords: [thursday church, Jesus, Debbie Salters]
+itunes_categories: [Religion &amp; Spirituality]
 episodes_per_feed_page: 100
 
-player_theme: default # default | "default-dark" | legacy | minimal | republica
+player_theme: republica # default | "default-dark" | legacy | minimal | republica
 
 ### Date can be localized via date_de.rb plugin, you don't need to change this
 date_format: ordinal
 
 ### Rsync Deploy config: Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_host: user@host.org
-ssh_port: 22
-document_root: /home/jaygreentree/Github/podcasts.thursdaychurch.org
-rsync_delete: true
+### ssh_host: user@host.org
+### ssh_port: 22
+### document_root: /home/jaygreentree/Github/
+### rsync_delete: true
 
 ### Twiter config, optional
 twitter_nick: thursdaychurch # Twitter will not be used unless this is set
@@ -33,9 +33,8 @@ language: en
 explicit: "no" # "yes" | "no" | clean
 
 ### License Config, you really should configure this
-license: CC BY 4.0
-license_url: https://creativecommons.org/licenses/by/4.0/
-license_image_url: https://i.creativecommons.org/l/by/4.0/88x31.png
+### license_url: https://creativecommons.org/licenses/by/4.0/
+### license_image_url: https://i.creativecommons.org/l/by/4.0/88x31.png
 
 ### Feed links, optional
 itunes_url: https://itunes.apple.com/at/podcast/myname/id232323

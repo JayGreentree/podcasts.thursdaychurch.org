@@ -10,10 +10,10 @@ audio:
   mp3: healthy-heart-physical-health.mp3
 #  ogg: healthy-heart-physical-health.ogg
 #  m4a: healthy-heart-physical-health.m4a
-chapters:
-  - '00:00:00.000 Intro.'
-  - '00:00:01.000 ... Shoubidoubidoo ...'
-  - '00:00:02.000 Outro.'
+#chapters:
+#  - '00:00:00.000 Intro.'
+#  - '00:00:01.000 ... Shoubidoubidoo ...'
+#  - '00:00:02.000 Outro.'
 ---
 
 {% podigee_player page %}
