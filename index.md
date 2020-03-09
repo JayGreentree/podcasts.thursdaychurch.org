@@ -1,5 +1,5 @@
 ---
-title: Episodes
+title: Sermon Podcasts
 layout: default
 navigation: 0
 ---
