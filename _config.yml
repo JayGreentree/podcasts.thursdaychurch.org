@@ -3,16 +3,15 @@ url: http://podcast.thursdaychurch.org
 
 ### download_url: is needed, if and only if audio files are hosted in a different location, it is the path of the directory where the audio files are stored
 download_url: "http://podcast.thursdaychurch.org/episodes"
-subtitle: 
+subtitle: Sermon podcasts
 description: Doing Church Differnetly While Staying True to the Message of Jesus Christ
-author: 
+author: Thursday Church
 
 ### author_url: This is the URL of a site owned by the author (see https://jsonfeed.org/version/1)
 author_url: "http://thursdaychurch.org/"
 
 email: webmaster@thursdaychurch.org
-keywords: [thursday church, Jesus, Debbie Salters]
-itunes_categories: [Religion &amp; Spirituality]
+keywords: [thursday church, Jesus, Debbie Salters, Jason Walsh, Dave Dunbar, Andrea Clegg]
 episodes_per_feed_page: 100
 
 player_theme: republica # default | "default-dark" | legacy | minimal | republica

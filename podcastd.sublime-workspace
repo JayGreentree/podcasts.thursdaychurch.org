@@ -99,8 +99,7 @@
 	},
 	"expanded_folders":
 	[
-		"/home/jaygreentree/Github/podcasts.thursdaychurch.org",
-		"/home/jaygreentree/Github/podcasts.thursdaychurch.org/_includes"
+		"/home/jay/Documents/github/podcasts.thursdaychurch.org"
 	],
 	"file_history":
 	[
@@ -235,7 +234,7 @@
 	],
 	"find":
 	{
-		"height": 29.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -331,7 +330,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 29.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -368,7 +367,7 @@
 	"project": "podcastd.sublime-project",
 	"replace":
 	{
-		"height": 54.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":

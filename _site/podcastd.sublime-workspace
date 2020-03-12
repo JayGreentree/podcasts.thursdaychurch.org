@@ -99,10 +99,14 @@
 	},
 	"expanded_folders":
 	[
-		"/home/jaygreentree/Github/podcast"
+		"/home/jay/Documents/github/podcasts.thursdaychurch.org"
 	],
 	"file_history":
 	[
+		"/home/jaygreentree/Github/podcasts.thursdaychurch.org/_includes/post_header.html",
+		"/home/jaygreentree/Github/podcasts.thursdaychurch.org/_posts/2020-03-08-whats-at-the-core-trasformation.md",
+		"/home/jaygreentree/Github/podcasts.thursdaychurch.org/site/templates/styles/main.css",
+		"/home/jaygreentree/Github/podcasts.thursdaychurch.org/index.md",
 		"/home/jaygreentree/Github/podcasts.thursdaychurch.org/_posts/2020-03-01-whats-at-the-core-serve-god-others.md",
 		"/home/jaygreentree/Github/podcasts.thursdaychurch.org/_posts/2020-02-16-healthy-heart-willing-heart.md",
 		"/home/jaygreentree/Github/podcasts.thursdaychurch.org/_posts/2020-02-23-healthy-heart-believing-heart.md",
@@ -116,7 +120,6 @@
 		"/home/jaygreentree/Github/podcasts.thursdaychurch.org/index.markdown",
 		"/home/jaygreentree/Github/podcasts.thursdaychurch.org/_layouts/default.html",
 		"/home/jaygreentree/Github/podcasts.thursdaychurch.org/site/templates/css/site.css",
-		"/home/jaygreentree/Github/podcasts.thursdaychurch.org/_includes/post_header.html",
 		"/home/jaygreentree/Github/podcasts.thursdaychurch.org/_posts/2016-03-22-episode0.md",
 		"/home/jaygreentree/Github/jaygreentree.github.io/_layouts/default.html",
 		"/home/jaygreentree/Github/podcasts.thursdaychurch.org/_sass/_overrides.scss",
@@ -227,14 +230,11 @@
 		"/Applications/mampstack/apache2/htdocs/site/templates/includes/foot.inc",
 		"/Applications/mampstack/apache2/htdocs/site/thursdaychurch/includes/topnav.inc",
 		"/Users/jaygreentree/Documents/Websites/ecohosting_main_files_v2.8/html-templates/version-1/js/theme-color-switcher.js",
-		"/Applications/mampstack/apache2/htdocs/site/templates/includes/topnav.inc",
-		"/Applications/mampstack/apache2/htdocs/index.php",
-		"/Applications/mampstack/apache2/htdocs/site/templates/css/site.css",
-		"/Applications/mampstack/apache2/htdocs/site/assets/aiom/css_2177903c8dd738bac1f49cd90231ad91_dev.css"
+		"/Applications/mampstack/apache2/htdocs/site/templates/includes/topnav.inc"
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -330,11 +330,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 26.0
 	},
 	"input":
 	{
-		"height": 42.0
+		"height": 67.0
 	},
 	"layout":
 	{
@@ -367,7 +367,7 @@
 	"project": "podcastd.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":

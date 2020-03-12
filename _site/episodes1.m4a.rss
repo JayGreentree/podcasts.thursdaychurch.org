@@ -9,42 +9,42 @@
 
   <channel>
     <title>Thursday Church</title>
-    <link>http://localhost:4000</link>
-    <atom:link href="http://localhost:4000/episodes.m4a.rss" rel="self" type="application/rss+xml" title="m4a Episode RSS-Feed"/>
-    <atom:link href="http://localhost:4000/episodes.m4a.rss" rel="first" type="application/rss+xml" />
-    <atom:link href="http://localhost:4000/episodes.m4a.rss" rel="last" type="application/rss+xml" />
+    <link>http://podcast.thursdaychurch.org</link>
+    <atom:link href="http://podcast.thursdaychurch.org/episodes.m4a.rss" rel="self" type="application/rss+xml" title="m4a Episode RSS-Feed"/>
+    <atom:link href="http://podcast.thursdaychurch.org/episodes.m4a.rss" rel="first" type="application/rss+xml" />
+    <atom:link href="http://podcast.thursdaychurch.org/episodes.m4a.rss" rel="last" type="application/rss+xml" />
     
     
 
-    <atom:link rel="alternate" href="http://localhost:4000/episodes.mp3.rss" type="application/rss+xml" title="mp3 Episode RSS-Feed"/>
-<atom:link rel="alternate" href="http://localhost:4000/episodes.ogg.rss" type="application/rss+xml" title="ogg Episode RSS-Feed"/>
+    <atom:link rel="alternate" href="http://podcast.thursdaychurch.org/episodes.mp3.rss" type="application/rss+xml" title="mp3 Episode RSS-Feed"/>
+<atom:link rel="alternate" href="http://podcast.thursdaychurch.org/episodes.ogg.rss" type="application/rss+xml" title="ogg Episode RSS-Feed"/>
     <description>Doing Church Differnetly While Staying True to the Message of Jesus Christ
 </description>
-    <lastBuildDate>Mon, 09 Mar 2020 12:44:00 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2020 14:09:13 -0400</lastBuildDate>
     <language>en</language>
     <generator>Jekyll-Octopod 0.9.12</generator>
 
     <itunes:summary>Doing Church Differnetly While Staying True to the Message of Jesus Christ
 </itunes:summary>
-    <itunes:author></itunes:author>
+    <itunes:author>Thursday Church</itunes:author>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="http://localhost:4000/img/logo-itunes.jpg" />
+    <itunes:image href="http://podcast.thursdaychurch.org/img/logo-itunes.jpg" />
     <itunes:owner>
-      <itunes:name></itunes:name>
+      <itunes:name>Thursday Church</itunes:name>
       <itunes:email>webmaster@thursdaychurch.org</itunes:email>
     </itunes:owner>
-    <managingEditor>webmaster@thursdaychurch.org ()</managingEditor>
+    <managingEditor>webmaster@thursdaychurch.org (Thursday Church)</managingEditor>
     <copyright></copyright>
-    <itunes:subtitle></itunes:subtitle>
-    <itunes:keywords>thursday church, Jesus, Debbie Salters</itunes:keywords>
+    <itunes:subtitle>Sermon podcasts</itunes:subtitle>
+    <itunes:keywords>thursday church, Jesus, Debbie Salters, Jason Walsh, Dave Dunbar, Andrea Clegg</itunes:keywords>
     <image>
       <title>Thursday Church</title>
-      <url>http://localhost:4000/img/logo-itunes.jpg</url>
-      <link>http://localhost:4000</link>
+      <url>http://podcast.thursdaychurch.org/img/logo-itunes.jpg</url>
+      <link>http://podcast.thursdaychurch.org</link>
     </image>
-    
-    <itunes:category text="Religion &amp;amp; Spirituality" />
-    
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
     
     
       
